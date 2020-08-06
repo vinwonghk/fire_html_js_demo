@@ -5,11 +5,13 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "type": "chrome",
+            "name": "Flutter",
+            "program": "lib/main.dart",
             "request": "launch",
-            "name": "Launch Chrome against localhost",
-            "url": "http://localhost:8080",
-            "webRoot": "${workspaceFolder}"
+            "args": [
+                "--web-port", "7357", "--verbose"
+            ],
+            "type": "dart"
         }
     ]
 }
