@@ -7,3 +7,7 @@ firebase_core=/Users/yatpwong3/Development/flutter/.pub-cache/hosted/pub.dartlan
 firebase_core_web=/Users/yatpwong3/Development/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_core_web-0.1.1+2/
 google_sign_in=/Users/yatpwong3/Development/flutter/.pub-cache/hosted/pub.dartlang.org/google_sign_in-4.5.1/
 google_sign_in_web=/Users/yatpwong3/Development/flutter/.pub-cache/hosted/pub.dartlang.org/google_sign_in_web-0.9.1+1/
+url_launcher=/Users/yatpwong3/Development/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher-5.5.0/
+url_launcher_linux=/Users/yatpwong3/Development/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher_linux-0.0.1+1/
+url_launcher_macos=/Users/yatpwong3/Development/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher_macos-0.0.1+7/
+url_launcher_web=/Users/yatpwong3/Development/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher_web-0.1.2/

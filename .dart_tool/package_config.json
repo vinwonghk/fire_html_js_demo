@@ -200,6 +200,12 @@
       "languageVersion": "2.1"
     },
     {
+      "name": "platform_detect",
+      "rootUri": "file:///Users/yatpwong3/Development/flutter/.pub-cache/hosted/pub.dartlang.org/platform_detect-1.4.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.4"
+    },
+    {
       "name": "plugin_platform_interface",
       "rootUri": "file:///Users/yatpwong3/Development/flutter/.pub-cache/hosted/pub.dartlang.org/plugin_platform_interface-1.0.2",
       "packageUri": "lib/",
@@ -210,6 +216,12 @@
       "rootUri": "file:///Users/yatpwong3/Development/flutter/.pub-cache/hosted/pub.dartlang.org/provider-4.3.1",
       "packageUri": "lib/",
       "languageVersion": "2.7"
+    },
+    {
+      "name": "pub_semver",
+      "rootUri": "file:///Users/yatpwong3/Development/flutter/.pub-cache/hosted/pub.dartlang.org/pub_semver-1.4.4",
+      "packageUri": "lib/",
+      "languageVersion": "2.0"
     },
     {
       "name": "quiver",
@@ -266,6 +278,36 @@
       "languageVersion": "2.4"
     },
     {
+      "name": "url_launcher",
+      "rootUri": "file:///Users/yatpwong3/Development/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher-5.5.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.1"
+    },
+    {
+      "name": "url_launcher_linux",
+      "rootUri": "file:///Users/yatpwong3/Development/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher_linux-0.0.1+1",
+      "packageUri": "lib/",
+      "languageVersion": "2.1"
+    },
+    {
+      "name": "url_launcher_macos",
+      "rootUri": "file:///Users/yatpwong3/Development/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher_macos-0.0.1+7",
+      "packageUri": "lib/",
+      "languageVersion": "2.1"
+    },
+    {
+      "name": "url_launcher_platform_interface",
+      "rootUri": "file:///Users/yatpwong3/Development/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher_platform_interface-1.0.7",
+      "packageUri": "lib/",
+      "languageVersion": "2.1"
+    },
+    {
+      "name": "url_launcher_web",
+      "rootUri": "file:///Users/yatpwong3/Development/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher_web-0.1.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.2"
+    },
+    {
       "name": "vector_math",
       "rootUri": "file:///Users/yatpwong3/Development/flutter/.pub-cache/hosted/pub.dartlang.org/vector_math-2.0.8",
       "packageUri": "lib/",
@@ -278,7 +320,7 @@
       "languageVersion": "2.7"
     }
   ],
-  "generated": "2020-08-06T04:11:18.644422Z",
+  "generated": "2020-08-07T03:14:51.476982Z",
   "generator": "pub",
   "generatorVersion": "2.9.0-21.10.beta"
 }
