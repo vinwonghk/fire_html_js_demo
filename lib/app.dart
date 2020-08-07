@@ -16,9 +16,9 @@ class MyApp extends StatelessWidget {
       home: Consumer<User>(
         builder: (_, user, __) {
           if (user == null) {
-            return const SignInView();
+            return SignInView();
           } else {
-            return const HomeView();
+            return HomeView();
           }
         },
       ),

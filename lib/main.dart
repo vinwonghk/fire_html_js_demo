@@ -15,7 +15,9 @@ void main() async {
           create: (context) => context.read<FirebaseAuthService>().onAuthStateChanged,
         )
       ],
-      child: MyApp()
+      builder: (context, widget) {
+        return MyApp();
+      },
     )
   );
 }

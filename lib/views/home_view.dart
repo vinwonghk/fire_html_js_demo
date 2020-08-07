@@ -1,7 +1,7 @@
 import 'package:fire_html_js_demo/services/firebase_auth_service.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:url_launcher/url_launcher.dart';
+import 'dart:html' as html;
 
 class HomeView extends StatelessWidget {
   const HomeView({Key key}) : super(key: key);
@@ -20,7 +20,9 @@ class HomeView extends StatelessWidget {
               ),
             ),
             RaisedButton(
-              onPressed: () => _launchURL,
+              onPressed: () {
+                html.window.open('https://fire-html-js-demo-f3b0d.firebaseapp.com/question_customization', 'name');
+              },
               child: Text('Go to Question Customization'),
             ),
             RaisedButton(
@@ -40,14 +42,5 @@ class HomeView extends StatelessWidget {
         ),
       ),
     );
-  }
-}
-
-_launchURL() async {
-  const url = 'https://fire-html-js-demo-f3b0d.firebaseapp.com/question_customization';
-  if (await canLaunch(url)) {
-    await launch(url);
-  } else {
-    throw 'Could not launch $url';
   }
 }
