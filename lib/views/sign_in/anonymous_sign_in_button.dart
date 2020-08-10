@@ -1,16 +1,20 @@
 
-import 'package:fire_html_js_demo/views/sign_in/sign_in_view_model.dart';
+import 'package:fire_html_js_demo/services/firebase_auth_service.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 class AnonymousSignInButton extends StatelessWidget {
-  const AnonymousSignInButton({Key key}) : super(key: key);
+
+  Function buttonPressed;
+
+  AnonymousSignInButton(this.buttonPressed);
 
   @override
   Widget build(BuildContext context) {
     return RaisedButton.icon(
       onPressed: () {
-        context.read<SignInViewModel>().signInAnonymously();
+        context.read<FirebaseAuthService>().signInAnonymously();
+        buttonPressed();
       },
       padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
       color: Colors.red[900],

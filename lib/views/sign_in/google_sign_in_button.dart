@@ -5,13 +5,17 @@ import 'package:flutter_auth_buttons/flutter_auth_buttons.dart' as buttons;
 import 'package:provider/provider.dart';
 
 class GoogleSignInButton extends StatelessWidget {
-  const GoogleSignInButton({Key key}) : super(key: key);
+
+  Function buttonPressed;
+
+  GoogleSignInButton(this.buttonPressed);
 
   @override
   Widget build(BuildContext context) {
     return buttons.GoogleSignInButton(
       onPressed: () {
         context.read<FirebaseAuthService>().signInWithGoogle();
+        buttonPressed();
       },
       darkMode: true,
       textStyle: TextStyle(
